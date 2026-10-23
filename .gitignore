@@ -16,3 +16,17 @@ stacktrace.log
 /.link_to_grails_plugins/
 /target-eclipse/
 web-app/uploads
+
+# Claude
+.claude/
+CLAUDE.md
+CLAUDE-SECURITY-*/
+claude_security_results/
+
+# Build artifacts and local runtime data
+/*.jar
+/*.war
+/devDb.*
+/prodDb.*
+.idea/
+*.iml
